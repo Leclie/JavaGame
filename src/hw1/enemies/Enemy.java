@@ -1,7 +1,7 @@
-package enemies;
+package hw1.enemies;
 
-import characteristics.Mortal;
-import heroes.Hero;
+import hw1.characteristics.Mortal;
+import hw1.heroes.Hero;
 
 public abstract class Enemy implements Mortal {
 

@@ -1,4 +1,4 @@
-package characteristics;
+package hw1.characteristics;
 
 public interface Mortal {
 

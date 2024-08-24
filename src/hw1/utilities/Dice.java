@@ -1,4 +1,4 @@
-package utilities;
+package hw1.utilities;
 
 import java.util.Random;
 

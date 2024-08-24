@@ -1,7 +1,7 @@
-package enemies;
+package hw1.enemies;
 
-import heroes.Hero;
-import utilities.Dice;
+import hw1.heroes.Hero;
+import hw1.utilities.Dice;
 
 public class Spider extends Enemy{
 

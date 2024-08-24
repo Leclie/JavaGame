@@ -1,9 +1,10 @@
-import enemies.Enemy;
-import enemies.Spider;
-import heroes.Archer;
-import heroes.Hero;
-import heroes.Mage;
-import heroes.Warrior;
+package hw1;
+
+import hw1.enemies.Enemy;
+import hw1.enemies.Spider;
+import hw1.heroes.Archer;
+import hw1.heroes.Mage;
+import hw1.heroes.Warrior;
 
 public class BattleGround {
     public static void main(String[] args) {

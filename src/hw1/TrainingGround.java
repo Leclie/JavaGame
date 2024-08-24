@@ -1,3 +1,5 @@
+package hw1;
+
 public class TrainingGround {
     public static void main(String[] args) {
 //        Heroes.Hero hero = new Heroes.Hero("Lux");

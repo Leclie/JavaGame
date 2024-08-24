@@ -1,7 +1,7 @@
-package heroes;
+package hw1.heroes;
 
-import enemies.Enemy;
-import utilities.Dice;
+import hw1.enemies.Enemy;
+import hw1.utilities.Dice;
 
 public class Mage extends Hero {
 
