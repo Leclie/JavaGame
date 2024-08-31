@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b797667-6cbf-4b9c-a2a7-9030d64f6366" name="Changes" comment="Stream Api homework commit">
-      <change afterPath="$PROJECT_DIR$/src/hw3/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/MyArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/MyCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/MyList.java" afterDir="false" />
+    <list default="true" id="2b797667-6cbf-4b9c-a2a7-9030d64f6366" name="Changes" comment="Collection homework commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw3/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw3/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +114,32 @@
       <option name="project" value="LOCAL" />
       <updated>1724502648026</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Collection homework commit">
+      <created>1724875020634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724875020634</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="game commit" />
     <MESSAGE value="Stream Api homework commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream Api homework commit" />
+    <MESSAGE value="Collection homework commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection homework commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hw3/MyArrayListDemo.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

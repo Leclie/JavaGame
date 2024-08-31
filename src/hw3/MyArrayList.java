@@ -8,7 +8,6 @@ import java.util.Collection;
 public class MyArrayList<T> implements MyList<T>{
 
     private static final int DEFAULT_CAPACITY = 10; // дефотный размер массива
-    private static final int GROW_CAPACITY = 5; // дефотный размер массива
     private T[] elements; // массив объектов
     private int size = 0;
 
@@ -32,9 +31,7 @@ public class MyArrayList<T> implements MyList<T>{
 
     @Override
     public void add(T t) {
-        if (size == elements.length){
-            growArray();
-        }
+        growArray(size + 1);
         elements[size] = t;
         size++;
     }
@@ -68,9 +65,7 @@ public class MyArrayList<T> implements MyList<T>{
     @Override
     public void addAll(Collection<? extends T> c) {
         T[] array = (T[]) c.toArray();
-        if (size + array.length > elements.length){
-            growArray(size + array.length);
-        }
+        growArray(size + array.length);
         System.arraycopy(array, 0, elements, size, array.length);
         size += array.length;
     }
@@ -82,15 +77,14 @@ public class MyArrayList<T> implements MyList<T>{
     }
 
     /**
-     * Увеличивает размер массива на GROW_CAPACITY
+     * Увеличивает размер массива
      * Никак не затрагивает size
      */
-    private void growArray(){
-        elements = Arrays.copyOf(elements, elements.length + GROW_CAPACITY);
-    }
-
-    private void growArray(int newLength){
-        elements = Arrays.copyOf(elements, newLength);
+    private void growArray(int minValue) {
+        if (minValue - elements.length > 0) {
+            int newLength = minValue + (elements.length >> 1);
+            elements = Arrays.copyOf(elements, newLength);
+        }
     }
 
     /**
